@@ -18,3 +18,6 @@ function doMath(num1, num2){
     const result = multiply / 2;
     return result;
 }
+
+const result = doMath(50, 36);
+// console.log(result);
