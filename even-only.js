@@ -19,5 +19,19 @@ function evenNumberOnly(numbers){
 }
 
 const numbers = [54, 74, 433, 64, 69];
-const evens = evenNumberOnly(numbers);
-console.log(evens);
+// const evens = evenNumberOnly(numbers);
+// console.log(evens);
+
+
+function sumOfEvenNumbers(numbers){
+    let sum = 0;
+    for(const number of numbers){
+        // console.log(number);
+        if(number % 2 === 0){
+            sum = sum + number;
+        }
+    }
+    return sum;
+}
+
+console.log(sumOfEvenNumbers(numbers));
