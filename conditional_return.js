@@ -6,6 +6,16 @@ function isEven(number){
 }
 
 const even = isEven(33);
-const even1 = isEven(64);
-console.log(even);
-console.log(even1);
+// console.log(even);
+// console.log(isEven(60));
+
+
+function isOdd(number){
+    if(number % 2 === 1){
+        return true;
+    }
+    return false;
+}
+
+console.log(isOdd(35));
+console.log(isOdd(68));
